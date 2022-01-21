@@ -1,3 +1,3 @@
-##AppMaxDesafio
+### AppMaxDesafio
 
-Aplicativo destinado à AppMax pelo programa estágio tech.
+Aplicativo destinado à <strong>AppMax</strong> pelo programa de estágio <strong>#teamTech</strong>.
