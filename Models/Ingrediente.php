@@ -1,16 +1,14 @@
 <?php
 
-namespace Models;
-
 class Ingrediente 
 {
   public string $nome;
-  public string $validade;
+  public DateTime $validade;
 
   public function __construct ($nome) 
   {
     $this->nome = $nome;
-    $this->validade = $this->randomDate();
+    $this->validade = new DateTime($this->randomDate());
   }
 
   public function randomDate()

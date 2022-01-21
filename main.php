@@ -1,10 +1,7 @@
 <?php
 
-require 'Models/Ingrediente.php';
-require 'Models/Cozinha.php';
-
-use Models\Ingrediente;
-use Models\Cozinha;
+include 'Models/Ingrediente.php';
+include 'Models/Cozinha.php';
 
 function generateIngrediante($names) 
 {
@@ -25,7 +22,6 @@ $ingredientesMineiroNames = [
   "Linguiça"
 ];
 
-
 $cozinhaMineira = new Cozinha(
   "Cozinha mineira", 
   14, 
@@ -33,7 +29,6 @@ $cozinhaMineira = new Cozinha(
   "Feijoada",
   generateIngrediante($ingredientesMineiroNames)
 );
-
 
 $ingredientesChinesaNames = [
   "Champignon",
