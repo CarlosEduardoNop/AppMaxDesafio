@@ -46,9 +46,9 @@ $cozinhaChinesa = new Cozinha(
 );
 
 echo("Cozinha mineira\n");
-var_dump($cozinhaChinesa);
+var_dump($cozinhaMineira);
 echo("Número de ingredientes ".$cozinhaMineira->countIngredientes()."\n");
 
 echo("Cozinha chinesa\n");
-var_dump($cozinhaMineira);
+var_dump($cozinhaChinesa);
 echo("Número de ingredientes ".$cozinhaChinesa->countIngredientes()."\n");
